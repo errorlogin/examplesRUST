@@ -1,0 +1,6 @@
+services:
+
+  terminal:
+    image: rust-dev:latest
+    build:
+      dockerfile: ./images/rust-dev.Dockerfile
